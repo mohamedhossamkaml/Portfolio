@@ -1,0 +1,14 @@
+import { faEnvelope, faArrowRight, faPhone, faMoon, faSun, faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
+import { faFacebookF, faInstagram, faTwitter } from "@fortawesome/free-brands-svg-icons";
+
+export const icons = {
+  email: faEnvelope,
+  arrow: faArrowRight,
+  phone: faPhone,
+  sun: faSun,
+  moon: faMoon,
+  quote: faQuoteLeft,
+  facebook: faFacebookF,
+  instagram: faInstagram,
+  twitter: faTwitter,
+};
