@@ -103,7 +103,7 @@ function HeroSection() {
                   <FontAwesomeIcon icon={icons.user} /> More About me!
                 </a>
                 <a
-                  href="/cv.pdf"
+                  href="/public/CV.pdf"
                   download
                   className="inline-flex items-center gap-2 px-4 py-2 border border-deepMint-500 text-deepMint-500 rounded hover:bg-deepMint-500 hover:text-white transition"
                 >
