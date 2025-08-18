@@ -3,7 +3,7 @@ import { icons } from "../utils/Icons";
 import { motion } from "framer-motion";
 import { fadeUp, fadeLeft, fadeRight, zoomIn } from "../utils/animations";
 import { Typewriter } from "react-simple-typewriter";
-import { faFacebookMessenger, faWhatsapp, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookMessenger, faWhatsapp, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
@@ -11,9 +11,9 @@ import { useState } from "react";
 
 function HeroSection() {
   const icons2 = [
-    { icon: faPaperPlane, title: "Gmail", subtitle: "mohamedhossamanam@gmail.com", bg: "bg-red-100/40", text: "text-blue-600" },
+    { icon: faPaperPlane, title: "Gmail", subtitle: "mohamedhossamanam@gmail.com", bg: "bg-red-600/40", text: "text-red-600" },
     { icon: faWhatsapp, title: "Whatsapp", subtitle: "010-1728-5592", bg: "bg-green-100/40", text: "text-green-600" },
-    { icon: faGithub, title: "GitHub", subtitle: "mohamedhossamkaml", bg: "bg-black-100/40", text: "text-cyan-600" },
+    { icon: faSquareGithub, title: "GitHub", subtitle: "mohamedhossamkaml", bg: "bg-gray-800/40", text: "text-gray-200" },
   ];
 
   const [showHero, setShowHero] = useState(true);
@@ -67,7 +67,7 @@ function HeroSection() {
 
 
           {/* 🔵 Main Content */}
-          <motion.div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+          <motion.div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 ">
 
 
             {/* 🧠 Text Section */}
