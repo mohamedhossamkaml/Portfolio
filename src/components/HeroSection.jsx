@@ -11,7 +11,7 @@ import { useState } from "react";
 
 function HeroSection() {
   const icons2 = [
-    { icon: faPaperPlane, title: "Gmail", subtitle: "mohamedhossamanam@gmail.com", bg: "bg-red-600/40", text: "text-red-600" },
+    { icon: faPaperPlane, title: "Gmail", subtitle: "mohamedhossamanam@gmail.com", bg: "bg-red-100/40", text: "text-blue-600" },
     { icon: faWhatsapp, title: "Whatsapp", subtitle: "010-1728-5592", bg: "bg-green-100/40", text: "text-green-600" },
     { icon: faSquareGithub, title: "GitHub", subtitle: "mohamedhossamkaml", bg: "bg-gray-800/40", text: "text-gray-200" },
   ];
