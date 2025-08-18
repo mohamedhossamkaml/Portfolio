@@ -6,6 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { faFacebookMessenger, faWhatsapp, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence } from "framer-motion";
+import myHero from "../assets/my-photo.png";
 import { useState } from "react";
 
 
@@ -59,7 +60,7 @@ function HeroSection() {
             className="md:hidden flex m-auto justify-center mb-8"
           >
             <img
-              src="/my-photo.png"
+              src={myHero}
               alt="Hero"
               className=" w-50 h-50 rounded-b-full  object-top object-cover shadow-lg"
             />

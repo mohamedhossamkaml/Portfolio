@@ -1,5 +1,5 @@
-
-
+import React from "react";
+import aboutPhoto from "../assets/about-photo.png";
 import { motion } from "framer-motion";
 import {
   UilAward,
@@ -29,7 +29,7 @@ function AboutSection() {
         className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto items-center"
       >
         <img
-          src="/about-photo.png"
+          src={aboutPhoto}
           alt="About"
           className="rounded-b-4xl object-top object-cover  m-auto shadow-md"
         />
