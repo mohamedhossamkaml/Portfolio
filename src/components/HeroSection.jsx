@@ -59,7 +59,7 @@ function HeroSection() {
             className="md:hidden flex m-auto justify-center mb-8"
           >
             <img
-              src="/public/my-photo.png"
+              src="/my-photo.png"
               alt="Hero"
               className=" w-50 h-50 rounded-b-full  object-top object-cover shadow-lg"
             />

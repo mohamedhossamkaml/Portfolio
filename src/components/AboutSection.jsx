@@ -29,7 +29,7 @@ function AboutSection() {
         className="grid md:grid-cols-2 gap-10 max-w-6xl mx-auto items-center"
       >
         <img
-          src="/public/about-photo.png"
+          src="/about-photo.png"
           alt="About"
           className="rounded-b-4xl object-top object-cover  m-auto shadow-md"
         />
