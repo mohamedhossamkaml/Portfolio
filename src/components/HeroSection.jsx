@@ -6,7 +6,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { faFacebookMessenger, faWhatsapp, faSquareGithub } from "@fortawesome/free-brands-svg-icons";
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence } from "framer-motion";
-import myHero from "../assets/my-photo.png";
+import myHero from "../assets/myPhoto.png";
 import { useState } from "react";
 
 

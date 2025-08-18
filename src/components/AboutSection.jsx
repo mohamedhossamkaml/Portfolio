@@ -1,5 +1,5 @@
 import React from "react";
-import aboutPhoto from "../assets/about-photo.png";
+import aboutPhoto from "../assets/aboutPhoto.png";
 import { motion } from "framer-motion";
 import {
   UilAward,
