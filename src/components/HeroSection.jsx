@@ -7,13 +7,14 @@ import { faFacebookMessenger, faWhatsapp, faSquareGithub } from "@fortawesome/fr
 import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence } from "framer-motion";
 import myHero from "../assets/myPhoto.png";
+import CV from "../assets/CV.pdf";
 import { useState } from "react";
 
 
 function HeroSection() {
   const icons2 = [
-    { icon: faPaperPlane, title: "Gmail", subtitle: "mohamedhossamanam@gmail.com", bg: "bg-red-100/40", text: "text-blue-600" },
-    { icon: faWhatsapp, title: "Whatsapp", subtitle: "010-1728-5592", bg: "bg-green-100/40", text: "text-green-600" },
+    { icon: faPaperPlane, title: "Gmail", subtitle: "mohamedhossamanam@gmail.com", bg: "bg-blue-400/40", text: "text-blue-600" },
+    { icon: faWhatsapp, title: "Whatsapp", subtitle: "010-1728-5592", bg: "bg-green-400/40", text: "text-green-600" },
     { icon: faSquareGithub, title: "GitHub", subtitle: "mohamedhossamkaml", bg: "bg-gray-800/40", text: "text-gray-200" },
   ];
 
@@ -105,7 +106,7 @@ function HeroSection() {
                   <FontAwesomeIcon icon={icons.user} /> More About me!
                 </a>
                 <a
-                  href="/public/CV.pdf"
+                  href={CV}
                   download
                   className="inline-flex items-center gap-2 px-4 py-2 border border-deepMint-500 text-deepMint-500 rounded hover:bg-deepMint-500 hover:text-white transition"
                 >
