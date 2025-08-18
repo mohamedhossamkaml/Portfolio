@@ -3,16 +3,17 @@ import { icons } from "../utils/Icons";
 import { motion } from "framer-motion";
 import { fadeUp, fadeLeft, fadeRight, zoomIn } from "../utils/animations";
 import { Typewriter } from "react-simple-typewriter";
-import { faFacebookMessenger, faWhatsapp, faTelegram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebookMessenger, faWhatsapp, faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faPaperPlane } from "@fortawesome/free-solid-svg-icons";
 import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
 
 
 function HeroSection() {
   const icons2 = [
-    { icon: faFacebookMessenger, title: "Messenger", subtitle: "user.fb123", bg: "bg-blue-100/40", text: "text-blue-600" },
-    { icon: faWhatsapp, title: "Whatsapp", subtitle: "999-888-777", bg: "bg-green-100/40", text: "text-green-600" },
-    { icon: faTelegram, title: "Telegram", subtitle: "@user_telegram", bg: "bg-cyan-100/40", text: "text-cyan-600" },
+    { icon: faPaperPlane, title: "Gmail", subtitle: "mohamedhossamanam@gmail.com", bg: "bg-red-100/40", text: "text-blue-600" },
+    { icon: faWhatsapp, title: "Whatsapp", subtitle: "010-1728-5592", bg: "bg-green-100/40", text: "text-green-600" },
+    { icon: faGithub, title: "GitHub", subtitle: "mohamedhossamkaml", bg: "bg-black-100/40", text: "text-cyan-600" },
   ];
 
   const [showHero, setShowHero] = useState(true);
