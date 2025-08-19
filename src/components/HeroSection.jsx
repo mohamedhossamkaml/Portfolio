@@ -32,7 +32,7 @@ function HeroSection() {
           className="relative py-20 px-6  bg-my-Body  text-deepMint-50 overflow-hidden  "
         >
           {/* 🟡 Communication Cards */}
-          <motion.div className="absolute top-0 mt-10  right-0 w-[600px] h-[600px] bg-gradient-to-br md:bg-[url('/public/my-photo.png')] md:bg-no-repeat md:bg-right rounded-full opacity-75  z-20 " />
+          <motion.div className="absolute top-0 mt-10 right-10 w-[600px] h-[600px] bg-gradient-to-br md:bg-[url('/public/my-photo.png')] md:bg-no-repeat md:bg-right rounded-full opacity-75  z-20 max-w-6xl mx-auto " />
 
           {/* 🟣 Social Media */}
           <motion.div  {...fadeLeft} exit="exit" className="max-w-6xl mx-auto mb-12 flex  ">
@@ -119,7 +119,7 @@ function HeroSection() {
 
 
           {/* 🟡 Communication Cards */}
-          <motion.div className=" mt-20 md:flex gap-5 text-left">
+          <motion.div className=" mt-20 md:flex gap-5 text-left grid md:grid-cols-2 max-w-6xl mx-auto">
             {
               icons2.map((item, i) => (
                 <motion.div key={i} {...zoomIn} className="flex items-start gap-2 p-5 rounded-md   cursor-pointer ">
