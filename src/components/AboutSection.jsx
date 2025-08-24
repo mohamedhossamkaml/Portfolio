@@ -35,7 +35,7 @@ function AboutSection() {
         />
 
         <motion.div {...fadeLeft}>
-          <h3 className="text-2xl mb-2">Hi, I'm Mohamed Hossam, based in Canada</h3>
+          <h3 className="text-2xl mb-2">Hi, I'm Mohamed Hossam, based in Egypt</h3>
           <p className="mb-6">
             Web Developer passionate about building scalable and visually engaging applications that simulate real-world workflows.
             Skilled in Laravel for backend development and React with TailwindCSS for creating responsive, modular interfaces.

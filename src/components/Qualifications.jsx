@@ -31,7 +31,7 @@ function Qualifications() {
     {
       title: "MEC Academy. (Somwtown, NJ)",
       text: "Junior Frontend Developer | React.js",
-      date: "2015 - 2018",
+      date: "2021 - 2024",
     },
     {
       title: "MEC Academy. (Sometown, NJ)",
