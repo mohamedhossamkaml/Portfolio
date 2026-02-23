@@ -5,7 +5,7 @@ import './index.css';
 import { LanguageProvider } from './context/LanguageContext';
 import { BrowserRouter } from 'react-router-dom';
 
-const BASE_PATH = "/Mohamed-Hossam/";
+const BASE_PATH = "/Portfolio/";
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <BrowserRouter basename={BASE_PATH}>

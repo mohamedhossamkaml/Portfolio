@@ -9,8 +9,9 @@
     "build": "vite build",
     "lint": "eslint .",
     "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "preview": "vite preview",
-    "postdeploy": "copy dist\\index.html dist\\404.html",
+    "postdeploy": "cp dist/index.html dist/404.html",
     "typecheck": "tsc --noEmit -p tsconfig.app.json"
   },
   "dependencies": {
